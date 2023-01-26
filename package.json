@@ -1,13 +1,30 @@
 {
-  "name": "next13-template",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@saastraa/create-base-next-app",
+  "version": "0.0.1",
+  "description": "Next.js 13 starter template setup with tailwind css",
+  "bin": "./bin/cli.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saastraa/create-base-next-app"
+  },
+  "keywords": [
+    "React",
+    "Next.js",
+    "Tailwind",
+    "CSS",
+    "Image Optimization"
+  ],
+  "author": {
+    "name": "Rahul Singh",
+    "email": "rahul@saastraa.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "@next/font": "13.1.5",
     "@types/node": "18.11.18",
